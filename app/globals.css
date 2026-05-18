@@ -270,8 +270,9 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   height: 100%;
   background:
-    radial-gradient(ellipse at 70% 40%, rgba(245,240,232,0.4) 0%, transparent 50%),
-    linear-gradient(110deg, #2c2418 0%, #3d3024 40%, #524030 70%, #6b5440 100%);
+    radial-gradient(ellipse at 70% 40%, rgba(245,240,232,0.25) 0%, transparent 50%),
+    linear-gradient(110deg, rgba(20,15,10,0.52) 0%, rgba(20,15,10,0.32) 40%, rgba(20,15,10,0.58) 100%),
+    url('/images/hero-bg.png') center/cover no-repeat;
   position: relative;
 }
 .hero-bg-img::before {
@@ -322,7 +323,7 @@ a { color: inherit; text-decoration: none; }
   position: absolute;
   inset: 0;
   clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
-  background: linear-gradient(160deg, #d4b896 0%, #b89976 40%, #8a6f54 100%);
+  background: url('/images/doctora.png') center top/cover no-repeat;
   overflow: hidden;
   animation: portrait-reveal 1.4s var(--ease-luxury) 0.2s both;
 }
@@ -710,14 +711,10 @@ a { color: inherit; text-decoration: none; }
   background-position: center;
 }
 .ad-antes {
-  background:
-    radial-gradient(ellipse at 50% 30%, rgba(255,220,200,0.3) 0%, transparent 50%),
-    linear-gradient(135deg, #c9a585 0%, #a88567 50%, #8c6b50 100%);
+  background: url('/images/tratamiento-facial.png') center/cover no-repeat;
 }
 .ad-despues {
-  background:
-    radial-gradient(ellipse at 50% 40%, rgba(255,240,225,0.5) 0%, transparent 60%),
-    linear-gradient(135deg, #f5e8d5 0%, #e8d4b8 50%, #d4b896 100%);
+  background: url('/images/piel-resultado.png') center/cover no-repeat;
 }
 
 .ad-label {
@@ -982,8 +979,8 @@ a { color: inherit; text-decoration: none; }
   aspect-ratio: 4 / 5;
   border-radius: 4px;
   background:
-    radial-gradient(ellipse at 50% 30%, rgba(255,245,225,0.4) 0%, transparent 50%),
-    linear-gradient(160deg, #d4b896 0%, #a88565 50%, #5a4530 100%);
+    radial-gradient(ellipse at 50% 30%, rgba(255,245,225,0.15) 0%, transparent 50%),
+    url('/images/cta-dorado.png') center/cover no-repeat;
   position: relative;
   overflow: hidden;
   box-shadow: 0 30px 60px -20px rgba(26,20,16,0.4);
