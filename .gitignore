@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Duplicate images (same as public/images/)
+uploads/
+
+# Env
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
